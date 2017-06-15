@@ -1,0 +1,5 @@
+  File "/Users/youngchk/Documents/site/qwewy.github.io/css/style.css", line 1
+    body{
+        ^
+SyntaxError: invalid syntax
+>>> 

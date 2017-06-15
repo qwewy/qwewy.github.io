@@ -1,0 +1,74 @@
+html, body{
+	background: linear-gradient(30deg, cyan, blue);
+	background-repeat: no-repeat;
+	height:100%;
+}
+div#Main {
+	position: absolute;
+ 	width: 150px;
+  	height: 150px;
+	top: 50%;
+  	left: 50%;
+  	margin: -75px 0 0 -75px;
+  	background: white;
+  	transition: 1s	;
+  	box-shadow: 10px 10px 5px black;
+}
+div#Main:hover {
+	position: absolute;
+ 	width: 500px;
+  	height: 400px;
+	top: 50%;
+  	left: 50%;
+  	margin: -200px 0 0 -250px;
+  	background: white;
+  	transition: 1s;
+}
+div#Main p{
+	text-align: center;
+}
+div#Main div#dp{
+	width:125px;
+	height: 125px;
+	overflow: hidden;
+	display:block;
+	margin:auto;
+	margin-top: 7px;
+	border:6px solid black;
+	transition: margin-top 0.75s;
+/*	margin: 8px 10px 10px 8px;
+*/}
+div#Main:hover div#dp{
+	width:125px;
+	height: 125px;
+	overflow: hidden;
+	display:block;
+	margin:auto;
+	margin-top: 31px;
+	border:6px solid black;
+	transition: margin-top 1s;
+/*	margin: 8px 10px 10px 8px;
+*/}
+div#Main div#dp img{
+	position:relative;
+	overflow:hidden;
+	left: -64px;
+	width:200px;
+	height:150px;
+	margin:auto;
+	display: block;
+	}
+
+div#Main div#content{
+	opacity: 0;
+	transition:0.3s	;
+}
+div#Main:hover div#content{
+	opacity: 1;
+	transition: opacity 0.75s;
+	transition-delay:1s;
+	font-family: Courier new;
+}
+p#bot{
+	text-align: bottom;
+}
