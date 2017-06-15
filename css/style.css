@@ -13,6 +13,8 @@ div#Main {
   	background: white;
   	transition: 1s	;
   	box-shadow: 10px 10px 5px black;
+  	font-family: Courier new;
+
 }
 div#Main:hover {
 	position: absolute;
@@ -67,7 +69,6 @@ div#Main:hover div#content{
 	opacity: 1;
 	transition: opacity 0.75s;
 	transition-delay:1s;
-	font-family: Courier new;
 }
 p#bot{
 	text-align: bottom;
