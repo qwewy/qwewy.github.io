@@ -14,10 +14,10 @@ div#Main {
   	background: white;
   	transition: 1s	;p		
   	box-shadow: 0px 0px 30px black;
-/*  	font-family: Courier new;
-*/
-	font-family: Geneva;
-}
+  	font-family: 'Open Sans', sans-serif;
+
+/*	font-family: Geneva;
+*/}
 div#Main:hover {
 	position: absolute;
  	width: 500px;
@@ -40,8 +40,7 @@ div#Main div#dp{
 	margin-top: 7px;
 	border:6px solid lightgray;
 	transition: margin-top 0.75s, border 1s;
-/*	margin: 8px 10px 10px 8px;
-*/}
+}
 div#Main:hover div#dp{
 	width:125px;
 	height: 125px;
@@ -51,13 +50,11 @@ div#Main:hover div#dp{
 	margin-top: 31px;
 	border: 4px solid lightgray;
 	transition: margin-top 1s, border 1s;
-/*	margin: 8px 10px 10px 8px;
-*/}
+}
 div#Main div#dp img{
 	position:relative;
 	overflow:hidden;
-/*	left: -64px;
-*/	width:125px; /* edit to fit */
+	width:125px; 
 	height:125px;
 	margin:auto;
 	display: block;
@@ -83,25 +80,8 @@ p#bot{
 
 
 div.icons{
-/*	width:50%;
-*//*	margin: auto;
-*/
-
-	/*display: inline-block;*/
-
   	vertical-align: middle;
 }
-/*div.icon{
-	padding: 20px 10px 0px;
-	height: 45px;
-	opacity: 0.5;
-	transition: opacity 0.75s;
-}
-
-div.icon:hover{
-	opacity:1;	
-	transition: opacity 0.75s;
-}*/
 
 img.icon_img{
 	padding: 20px 10px 0px;
