@@ -1,8 +1,9 @@
-html, body{
+body{
 	background: linear-gradient(30deg, cyan, blue);
 	background-repeat: no-repeat;
-	height:100%;
+	min-height:100vh;
 }
+
 div#Main {
 	position: absolute;
  	width: 150px;
@@ -11,10 +12,11 @@ div#Main {
   	left: 50%;
   	margin: -75px 0 0 -75px;
   	background: white;
-  	transition: 1s	;
-  	box-shadow: 0px 0px 15px black;
-  	font-family: Courier new;
-
+  	transition: 1s	;p		
+  	box-shadow: 0px 0px 30px black;
+/*  	font-family: Courier new;
+*/
+	font-family: Geneva;
 }
 div#Main:hover {
 	position: absolute;
@@ -36,8 +38,8 @@ div#Main div#dp{
 	display:block;
 	margin:auto;
 	margin-top: 7px;
-	border:6px solid black;
-	transition: margin-top 0.75s;
+	border:6px solid lightgray;
+	transition: margin-top 0.75s, border 1s;
 /*	margin: 8px 10px 10px 8px;
 */}
 div#Main:hover div#dp{
@@ -47,29 +49,69 @@ div#Main:hover div#dp{
 	display:block;
 	margin:auto;
 	margin-top: 31px;
-	border:6px solid black;
-	transition: margin-top 1s;
+	border: 4px solid lightgray;
+	transition: margin-top 1s, border 1s;
 /*	margin: 8px 10px 10px 8px;
 */}
 div#Main div#dp img{
 	position:relative;
 	overflow:hidden;
-	left: -64px;
-	width:200px;
-	height:150px;
+/*	left: -64px;
+*/	width:125px; /* edit to fit */
+	height:125px;
 	margin:auto;
 	display: block;
 	}
 
+
 div#Main div#content{
-	opacity: 0;
-	transition:0.3s	;
+/*	width: 500px;
+*/	opacity: 0;
+	transition: opacity 0.4s;
+	text-align: center;
+	margin:auto;
 }
 div#Main:hover div#content{
 	opacity: 1;
 	transition: opacity 0.75s;
 	transition-delay:1s;
+	text-align: center;
 }
 p#bot{
 	text-align: bottom;
 }
+
+
+div.icons{
+/*	width:50%;
+*//*	margin: auto;
+*/
+
+	/*display: inline-block;*/
+
+  	vertical-align: middle;
+}
+/*div.icon{
+	padding: 20px 10px 0px;
+	height: 45px;
+	opacity: 0.5;
+	transition: opacity 0.75s;
+}
+
+div.icon:hover{
+	opacity:1;	
+	transition: opacity 0.75s;
+}*/
+
+img.icon_img{
+	padding: 20px 10px 0px;
+	height: 45px;
+	opacity: 0.5;
+	transition: opacity 0.75s;
+}
+
+img.icon_img:hover{
+	opacity:1;	
+	transition: opacity 0.75s;
+}
+
